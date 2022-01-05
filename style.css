@@ -20,7 +20,7 @@ h1{
 }
 .devide{
    display: flex;
-   margin-bottom: 100px;
+   
 }
 .color{
    color: red;
@@ -36,6 +36,64 @@ h1{
 .anchor:hover{
    background-color: green;
    color: honeydew;
+   transition: 0.6s;
+   letter-spacing: 3px;
+
+}
+.parent{
+   display: flex;
+   
+}
+.devide-second{
+   height: 300px;
+   width: 600px;
+   border: 200px;
+   margin: 10px;
+   padding: 20px;
+}
+.devide-second2{
+   height: 300px;
+   width: 600px;
+   border: 200px;
+   margin: 10px;
+   padding: 20px;
+}
+.devide-second3{
+   height: 300px;
+   width: 600px;
+   border: 200px;
+   margin: 10px;
+   padding: 20px;
+
+}
+.picture{
+   width: 90%;
+   height: 400px;
+}
+.abid{
+   text-align: center;
+}
+.devide-second h2{
+   color: red;
+   le
+}
+.devide-second2 h2{
+   color:blue;
+}
+.devide-second3 h2{
+   color: turquoise;
+}
+.btn{
+   text-align: center;
+   border: 2px solid brown;
+   padding: 10px ;
+   background-color: chartreuse;
+   border-radius: 5px;
+}
+.btn:hover{
+   background-color:#fff ;
+   font-weight: 700;
+   letter-spacing: 3px;
    transition: 0.6s;
 
 }
